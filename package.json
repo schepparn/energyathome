@@ -1,9 +1,9 @@
 {
-  "name": "NodeJS-Passort-BoilerPlate",
-  "description": "A demo app in nodejs illustrating the use of passport in express, jade and mongoose environment",
+  "name": "Energy@Home",
+  "description": "Household appliance database, by the people - for the people",
   "version": "1.0.0",
   "private": false,
-  "author": "Mustafa Dikici <musdikici@gmail.com> (http://diki.io)",
+  "author": "Anders Dalen <andersdalen@gmail.com> (http://andersdalen.com)",
   "engines": {
     "node": "0.10.x",
     "npm": "1.3.x"
