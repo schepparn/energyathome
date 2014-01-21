@@ -47,3 +47,5 @@ a.tag {
 .error {
   color: #FF2602;
 }
+/* Fix for unwanted route change bug in Angular */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
