@@ -5,10 +5,10 @@ var path = require('path')
 
 module.exports = {
   development: {
-    db: 'mongodb://localhost/noobjs_dev',
+    db: 'mongodb://localhost/energyathome_dev',
     root: rootPath,
     app: {
-      name: 'Nodejs Passport Boilerplate Demo'
+      name: 'energyathome'
     },
     facebook: {
       clientID: "APP_ID",
@@ -32,10 +32,10 @@ module.exports = {
     },
   },
   test: {
-    db: 'mongodb://localhost/noobjs_test',
+    db: 'mongodb://localhost/energyathome_test',
     root: rootPath,
     app: {
-      name: 'Nodejs Express Mongoose Demo'
+      name: 'energyathome'
     },
     facebook: {
       clientID: "APP_ID",

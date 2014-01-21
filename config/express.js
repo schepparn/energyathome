@@ -42,7 +42,7 @@ module.exports = function (app, config, passport) {
 
     // express/mongo session storage
     app.use(express.session({
-      secret: 'noobjs',
+      secret: 'energyathome',
       store: new mongoStore({
         url: config.db,
         collection : 'sessions'
@@ -62,7 +62,7 @@ module.exports = function (app, config, passport) {
     // assume "not found" in the error msgs
     // is a 404. this is somewhat silly, but
     // valid, you can do whatever you like, set
-    // properties, use instanceof etc.
+    // properties, use instance of etc.
     app.use(function(err, req, res, next){
       // treat as 404
       if (~err.message.indexOf('not found')) return next()

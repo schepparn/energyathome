@@ -126,7 +126,7 @@ module.exports = function (passport, config) {
   ))
 
   // use google strategy
-passport.use(new GoogleStrategy({
+    passport.use(new GoogleStrategy({
       clientID: config.google.clientID,
       clientSecret: config.google.clientSecret,
       callbackURL: config.google.callbackURL
