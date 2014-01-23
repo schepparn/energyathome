@@ -1,8 +1,13 @@
 
 header#header
-  .navbar.navbar-fixed-top(role='navigation')
+  .navbar.navbar-inverse.navbar-fixed-top(role='navigation')
     .navbar-inner
       .container
+        .navbar-header
+          button.navbar-toggle(type='button' ng-init='navbarCollapsed' ng-click='navbarCollapsed=!navbarCollapsed')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
         a.brand(href='/') energyathome
         .nav-collapse.collapse
           ul.nav.pull-right
